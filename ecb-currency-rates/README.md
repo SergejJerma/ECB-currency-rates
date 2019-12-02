@@ -60,8 +60,8 @@ Currency rate 	  Date
  1.6220 	2019-11-27
 ...
 ```
-Naudojant viršutinį puslapio meniu, vartotojas gali grįžti prie aktuoalių valiutų kursų formos arba pasirinkti valiutų skaičiuoklę. 
-Naudojant skaičiuoklę, vartotojas pasirenka valiutos, kurios kursą paskelbė Lietuvos bankas, pavadinimą, įveda sumą eurais (nemažiau 1Eur), ir, paspaudus mygtuką "Convert", vartotojui parodoma suma pagal pasirinktą valiutą, valiutos kursas bei kurso paskelbimo datą.
+Naudojant viršutinį puslapio meniu, vartotojas gali grįžti prie aktualių valiutų kursų formos arba pasirinkti valiutų skaičiuoklę. 
+Naudojant skaičiuoklę, vartotojas pasirenka valiutos, kurios kursą paskelbė Lietuvos bankas, pavadinimą, įveda sumą eurais (nemažiau 1 Eur), ir, paspaudus mygtuką "Convert", vartotojui parodoma suma pagal pasirinktą valiutą, valiutos kursas bei kurso paskelbimo data.
 
 
 ### Papildoma informacija
