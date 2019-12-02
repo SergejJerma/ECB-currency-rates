@@ -66,7 +66,7 @@ Naudojant skaičiuoklę, vartotojas pasirenka valiutos, kurios kursą paskelbė 
 Choosed currency 	Mexican peso (MXN)
 Entered amount  	1 EUR
 Converted amount 	21.45 MXN
-Exchange rate 	  21.4483
+Exchange rate 	   21.4483
 Rate date 	      2019-11-29
 ```
 ### Papildoma informacija
