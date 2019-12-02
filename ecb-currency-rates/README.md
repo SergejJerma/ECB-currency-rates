@@ -1,6 +1,6 @@
 # Oficialūs valiutų kursai 
 
-Programa parodo oficialius www.lb.lt kasdien skelbiamus valiutų kursus bei leidžia atlikti valiutos konvertavimą
+Programa parodo oficialius www.lb.lt kasdien skelbiamus valiutų kursus bei leidžia atlikti Eur valiutos konvertavimą į kitą pasirinktą
 
 ## Pradžia
 
