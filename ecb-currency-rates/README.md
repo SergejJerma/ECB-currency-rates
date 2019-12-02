@@ -29,7 +29,7 @@ Programoje yra trys POJO klasės - Currency, CurrentRate, HistoryRate.
 
 ## Programos veikimas
 
-Paleidus programą, atsidaro (http://localhost:8080/) vartotojo interfeisas, kuriame parodomi paskutiniai Lietuvos banko puslapiai paskelbti valiutų kursai. Puslapyje rodomas kursų generavimo laikas sekundės tikslumu.
+Paleidus programą, atsidaro (http://localhost:8080/) vartotojo interfeisas, kuriame parodomi paskutiniai Lietuvos banko puslapyje paskelbti valiutų kursai. Formoje rodomas kursų generavimo laikas sekundės tikslumu.
 ```
 Exchange Rates of the Euro against Foreign Currencies (2019-12-02 16:21:04)
 Currency code 	         Currency name 	            Currency rate 	  Date
@@ -43,7 +43,7 @@ Paspaudus ant valiutos pavadinimo (pvz., Australian dollar), atsidaro šios vali
 Exchange Rates of the Euro against Australian dollar (AUD) history
 Currency rate 	Date
 ```
-Vartotojui suteikiama galimybę pasirinkti valiutos kursų istorijos periodą:
+Vartotojui suteikiama galimybė pasirinkti valiutos kursų istorijos periodą:
 ```
 1m - vieno mėnesio
 3m - trijų mėnesių
