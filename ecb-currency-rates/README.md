@@ -62,8 +62,13 @@ Currency rate 	  Date
 ```
 Naudojant viršutinį puslapio meniu, vartotojas gali grįžti prie aktualių valiutų kursų formos arba pasirinkti valiutų skaičiuoklę. 
 Naudojant skaičiuoklę, vartotojas pasirenka valiutos, kurios kursą paskelbė Lietuvos bankas, pavadinimą, įveda sumą eurais (nemažiau 1 Eur), ir, paspaudus mygtuką "Convert", vartotojui parodoma suma pagal pasirinktą valiutą, valiutos kursas bei kurso paskelbimo data.
-
-
+```
+Choosed currency 	Mexican peso (MXN)
+Entered amount  	1 EUR
+Converted amount 	21.45 MXN
+Exchange rate 	  21.4483
+Rate date 	      2019-11-29
+```
 ### Papildoma informacija
 
 * aktualūs valiutų kursai automatiškai atnaujinami kasdien 19:00:00 pagal Lietuvos laiką;
