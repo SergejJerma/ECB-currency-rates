@@ -66,7 +66,9 @@ Naudojant skaičiuoklę, vartotojas pasirenka valiutos, kurios kursą paskelbė 
 
 ### Papildoma informacija
 
-* aktualūs valiutų kursai automatiškai atnaujinami kasdien 19:00:00 pagal Lietuvos laiką.
+* aktualūs valiutų kursai automatiškai atnaujinami kasdien 19:00:00 pagal Lietuvos laiką;
+* išimtys gaudomos;
+* valiutos sumos įvedimas apribotas sveikais skaičiais, kurie didesni už 1.
 
 ## Testai
 
