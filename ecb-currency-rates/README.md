@@ -7,7 +7,7 @@ Programa parodo oficialius www.lb.lt kasdien skelbiamus valiutų kursus bei leid
 Servisas paleidžiamas iš .jar failo
 * [ecb-currency-rates.jar](https://we.tl/t-558XW4pndS) 
 ```
-java -jar iban-checker-rest.jar
+java -jar ecb-currency-rates.jar
 ```
 
 ### Back-end
