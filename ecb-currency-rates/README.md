@@ -72,7 +72,7 @@ Rate date 	        2019-11-29
 ### Papildoma informacija
 
 * aktualūs valiutų kursai automatiškai atnaujinami kasdien 19:00:00 pagal Lietuvos laiką;
-* išimtys gaudomos;
+* išimtys programos kode gaudomos;
 * valiutos sumos įvedimas skaičiuoklėje apribotas sveikais skaičiais, kurie didesni už 1.
 
 ## Testai
