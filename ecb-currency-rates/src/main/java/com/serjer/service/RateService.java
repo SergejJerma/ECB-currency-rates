@@ -63,7 +63,7 @@ public class RateService {
 
 	}
 	
-	public void getHistoryRates(String currencyCode,  String dateFrom, String dateTo){			
+	public void getRatesHistory(String currencyCode,  String dateFrom, String dateTo){			
 		  try {
 	            String URL = "https://www.lb.lt/webservices/FxRates/FxRates.asmx/getFxRatesForCurrency?tp=EU"
 	            		+ "&ccy=" + currencyCode

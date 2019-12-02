@@ -43,7 +43,7 @@ public class MainController {
 	private static boolean executed;
 
 	@GetMapping("/")
-	public String showActualRates(Model model) {
+	public String showCurrentActualRates(Model model) {
 		if (!executed) {
 			currencyService.getCurriencyCodeAndName();
 			rateService.getCurrentRates();
@@ -59,7 +59,7 @@ public class MainController {
 	}
 
 	@GetMapping("/history")
-	public String show1CurrencyRatesHistory(Model model, 
+	public String showCurrencyRatesHistory(Model model, 
 						@RequestParam Long id) {
 
 		model.addAttribute("currency", currencyRepo.findOneById(id));
@@ -69,7 +69,7 @@ public class MainController {
 	}
 	
 	@PostMapping("/history")
-	public String show2CurrencyRatesHistory(Model model,
+	public String getCurrencyRatesHistory(Model model,
 						@RequestParam(value = "range", required = false) String range,
 						@RequestParam Long id) {
 		
@@ -80,7 +80,7 @@ public class MainController {
 		else if (range.equals("all")) dateFrom = LocalDate.of(2014, 9, 30);
 		else dateFrom = dateTo.minusMonths(Integer.valueOf(range));
 	
-		rateService.getHistoryRates( currencyRepo.findOneById(id).getCode(), 
+		rateService.getRatesHistory( currencyRepo.findOneById(id).getCode(), 
 									dateFrom.toString(), 
 									dateTo.toString());
 		return "redirect:/history?id=" + id;
